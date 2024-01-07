@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.logo img{
+    width: 43%;
+    border: 2px solid white ;
+    border-radius: 5px;
+}
+.navbar{
+    display: flex;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+    align-items: center;
+    justify-content: centers;
+}
+.nav-list{
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+.nav-list li{
+     list-style: none;
+     padding: 26px 30px;
+     display: block;
+}
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;;
+}
+.nav-list li a:hover{
+    color:white;
+
+}
+.rightNav
+{
+    
+    width: 30%;
+    text-align: right;
+    padding-top: 20px;
+}
+#search{
+    font-size: 17px;
+    padding: 5px;
+    border-radius: 10px;
+}
+.background{
+    background: rgba(0, 0, 0, 0.7) url(../images/bhu.jpeg);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.firstSection{
+    height: 80vh;
+}
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    max-width: 70%;
+    margin:auto;    
+    height: 100%;                                                                    
+}
+
+.firstHalf
+{
+    width: 80%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 50%;    
+}
+.secondhalf
+{
+    width: 30%;
+}
+.secondhalf img
+{
+    border-radius: 150px;
+    border: 1px white solid;
+    display: block;
+    margin: auto;
+}
+.text-big
+{
+    font-size: 35px;
+}
+.text-small
+{
+    font-size:20px;
+    text-align: justify;
+}
+.btn
+{
+    padding: 8px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background: none;
+    color:white;
+    cursor: pointer;
+}
+.btn:hover
+{
+    background-color: gray;
+}
+.section
+{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    text-align: justify;
+    margin: auto;
+    max-width: 80%;
+}
+.section-Left
+{
+    flex-direction: row-reverse;
+}
+.paras
+{
+    padding: 0 20px;
+}
+.imgfluid{
+    border: 3px solid red;
+    border-radius: 10px;
+}
+.contact
+{
+    background-color: azure;
+    height: 600px;
+}
+.text-center
+{
+    text-align: center;
+    padding: 40px;
+    color:white;
+}
+.form
+{
+    max-width: 70%;
+    margin:auto;
+}
+.form-input{
+    margin:15px 0;
+    padding: 5px 3px;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.text-footer
+{
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    color: white;
+}
+.berger
+{
+    display: none;
+    position: absolute;
+    top:15px;
+    right: 5%;
+    cursor: pointer;
+
+}
+.line
+{
+    width: 33px;
+    height: 4px;
+    background-color: white;
+    margin:5px 3px
+}
+

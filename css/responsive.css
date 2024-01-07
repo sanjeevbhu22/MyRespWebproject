@@ -1,0 +1,43 @@
+@media only screen and (max-width:986px) {
+    .nav-list
+    {
+        flex-direction: column;
+    }
+    .navbar
+    {
+        flex-direction: column;
+        height: 500px;
+        transition: all 0.5s ease-out;
+    }
+    .rightNav{
+        text-align: center;
+    }
+    #search
+    {
+        width: 100%;
+    }
+    .box-main
+    {
+        flex-direction: column-reverse;
+        max-width: 100%;
+        height: auto;
+    }
+    .section{
+        flex-direction: column-reverse;
+        max-width: 100%;
+        height: auto;
+        margin-top: 40px;
+    }
+    .berger
+    {
+        display: block;
+    }
+    .h-nav
+    {
+        height: 72px;
+    }
+    .v-class
+    {
+        opacity: 0;
+    }
+}
